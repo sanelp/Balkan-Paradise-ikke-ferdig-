@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loggin</title>
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="valid.js"></script>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Balkan Paradise</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Hjem</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">Om oss</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Produkter</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Menu.html">Meny</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.html">Butikken</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Login.html">Logg Inn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+</head>
+<body class="loginbody">
+    <div class="form">
+        <h1>Logg inn her!</h1>
+        <p>Brukernavn :</p>
+        <input type="text" name="" placeholder="Name Here">
+        <p>Passord :</p>
+        <input type="password" name="" placeholder="Password Here" id="pass">
+        <input type="checkbox" onclick="myfunction()">
+        <input type="submit" name="" value="LOGIN" onclick="validate()">
+    </div>
+
+    <div>
+        <p id="length"></p>
+    </div>
+
+
+    <input type="submit" name="" value="LOGIN" onclick="lpage()">
+   
+</body>
+</html>
